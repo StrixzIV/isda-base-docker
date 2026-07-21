@@ -3,9 +3,16 @@ NAME = isda-base-docker
 COMPOSE = docker compose
 COMPOSE_FILE = docker-compose.yml
 
-.PHONY: all up down clean fclean re
+.PHONY: all up down clean fclean re setup
 
-all: up
+all: setup
+
+setup:
+	@if [ ! -f servers.json ]; then \
+		echo "Creating servers.json..."; \
+		echo '{\n  "Servers": {\n    "1": {\n      "Name": "PostgreSQL DB",\n      "Group": "Servers",\n      "Host": "db",\n      "Port": 5432,\n      "MaintenanceDB": "isda",\n      "Username": "postgres",\n      "Password": "postgrespassword",\n      "SSLMode": "prefer",\n      "SavePassword": true\n    }\n  }\n}' > servers.json; \
+	fi
+	$(COMPOSE) -f $(COMPOSE_FILE) up -d --build
 
 up:
 	$(COMPOSE) -f $(COMPOSE_FILE) up -d --build
@@ -19,4 +26,4 @@ clean:
 fclean:
 	$(COMPOSE) -f $(COMPOSE_FILE) down -v --rmi all --remove-orphans
 
-re: fclean all
+re: fclean setup

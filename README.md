@@ -4,38 +4,58 @@ This repository contains a minimal Docker Compose configuration for PostgreSQL a
 
 ## Quick Start (Using Makefile)
 
+- **`make setup`**: Ensures `servers.json` exists for automatic pgAdmin database connection and starts all containers.
 - **`make` / `make up`**: Build and start containers in detached mode.
 - **`make down`**: Stop containers.
 - **`make clean`**: Stop containers and remove locally built images.
 - **`make fclean`**: Stop containers, remove all volumes (database data reset), images, and orphan containers.
-- **`make re`**: Reset everything (`fclean`) and restart (`up`).
+- **`make re`**: Reset everything (`fclean`) and rerun `setup`.
 
 ---
 
-## Direct Docker Commands
+## Automatic Database Initialization ([init.sql](file:///Users/jikaewsi/Documents/code_and_scripts/isda-base-docker/init.sql))
 
-```bash
-docker compose up -d
+When the container starts up for the first time, PostgreSQL will automatically execute [init.sql](file:///Users/jikaewsi/Documents/code_and_scripts/isda-base-docker/init.sql) inside the `isda` database.
+
+The tables created are:
+- `ADMINISTRATION`
+- `ADMIN_PR_VP`
+- `ELECTION`
+- `PRESIDENT`
+- `PRES_HOBBY`
+- `PRES_MARRIAGE`
+- `STATE`
+
+---
+
+## Automatic pgAdmin Connection (`servers.json`)
+
+pgAdmin automatically connects to the PostgreSQL database on startup using [servers.json](file:///Users/jikaewsi/Documents/code_and_scripts/isda-base-docker/servers.json):
+
+```json
+{
+  "Servers": {
+    "1": {
+      "Name": "PostgreSQL DB",
+      "Group": "Servers",
+      "Host": "db",
+      "Port": 5432,
+      "MaintenanceDB": "isda",
+      "Username": "postgres",
+      "Password": "postgrespassword",
+      "SSLMode": "prefer",
+      "SavePassword": true
+    }
+  }
+}
 ```
 
-### Access pgAdmin
+### Accessing pgAdmin
 - **URL**: [http://localhost:5050](http://localhost:5050)
 - **Email**: `admin@admin.com`
 - **Password**: `admin`
 
-### Connect pgAdmin to PostgreSQL
-Once logged into pgAdmin, click **Add New Server** and enter the following settings:
-
-#### General Tab
-- **Name**: `PostgreSQL DB` (or any name you prefer)
-
-#### Connection Tab
-- **Host name / address**: `db`
-- **Port**: `5432`
-- **Maintenance database**: `main_db`
-- **Username**: `postgres`
-- **Password**: `postgrespassword`
-- Check **Save password?** for convenience.
+Upon logging into pgAdmin, the **PostgreSQL DB** server (connected to database `isda`) will already be listed in the left sidebar tree, ready for use!
 
 ---
 
@@ -44,6 +64,6 @@ If you want to connect using DBeaver, TablePlus, or your application running loc
 
 - **Host**: `localhost`
 - **Port**: `5432`
-- **Database**: `main_db`
+- **Database**: `isda`
 - **Username**: `postgres`
 - **Password**: `postgrespassword`
