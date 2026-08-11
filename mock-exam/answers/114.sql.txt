@@ -1,0 +1,3 @@
+-- Question 114 [AGGREGATION]: Average Age at Death of Deceased Presidents (Textbook Ex 8.01)
+-- Write your standard ANSI SQL query solution below
+

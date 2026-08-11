@@ -1,0 +1,3 @@
+-- Question 53 [HAVING]: Repeat Customers
+-- Write your standard ANSI SQL query solution below
+

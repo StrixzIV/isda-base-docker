@@ -1,0 +1,3 @@
+-- Question 36 [GROUP BY]: Customer Distribution by Country & City
+-- Write your standard ANSI SQL query solution below
+

@@ -1,0 +1,3 @@
+-- Question 96 [HAVING]: High Average Order Value Cities
+-- Write your standard ANSI SQL query solution below
+

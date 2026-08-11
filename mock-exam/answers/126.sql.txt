@@ -1,0 +1,3 @@
+-- Question 126 [SUBQUERY]: Presidents Born After Washington's Inauguration Subquery (Textbook Ex 11.15)
+-- Write your standard ANSI SQL query solution below
+

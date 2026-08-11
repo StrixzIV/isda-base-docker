@@ -1,0 +1,3 @@
+-- Question 43 [JOIN]: All Departments & Assigned Employees
+-- Write your standard ANSI SQL query solution below
+

@@ -1,0 +1,3 @@
+-- Question 115 [GROUP BY]: Presidents Count Born per State (Textbook Ex 9.02)
+-- Write your standard ANSI SQL query solution below
+

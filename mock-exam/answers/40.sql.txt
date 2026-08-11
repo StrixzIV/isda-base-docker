@@ -1,0 +1,3 @@
+-- Question 40 [GROUP BY]: Daily Order Activity
+-- Write your standard ANSI SQL query solution below
+

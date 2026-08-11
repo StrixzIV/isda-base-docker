@@ -1,0 +1,3 @@
+-- Question 47 [JOIN]: Completed Order Items with Customer City
+-- Write your standard ANSI SQL query solution below
+

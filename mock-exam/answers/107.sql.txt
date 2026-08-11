@@ -1,0 +1,3 @@
+-- Question 107 [SELECT]: Presidential Age at Death Projection (Textbook Ex 3.05)
+-- Write your standard ANSI SQL query solution below
+

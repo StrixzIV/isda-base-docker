@@ -1,0 +1,3 @@
+-- Question 118 [JOIN]: Presidential Marriage Details Join (Textbook Ex 10.01)
+-- Write your standard ANSI SQL query solution below
+

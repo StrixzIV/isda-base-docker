@@ -1,0 +1,2 @@
+-- Question 95 Solution: JOIN (End-to-End Order Item Audit (4-Table Join))
+SELECT oi.item_id, oi.product_name, oi.category, c.customer_name, d.department_name, oi.unit_price * oi.quantity AS total_cost FROM order_items oi JOIN orders o ON oi.order_id = o.order_id JOIN customers c ON o.customer_id = c.customer_id JOIN employees e ON o.employee_id = e.employee_id JOIN departments d ON e.department_id = d.department_id ORDER BY oi.item_id ASC;

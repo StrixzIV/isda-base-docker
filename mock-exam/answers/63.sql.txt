@@ -1,0 +1,3 @@
+-- Question 63 [SUBQUERY]: Employees Earning Above Department Average
+-- Write your standard ANSI SQL query solution below
+

@@ -1,0 +1,3 @@
+-- Question 112 [AGGREGATION]: Total Children across All Presidential Marriages (Textbook Ex 7.03)
+-- Write your standard ANSI SQL query solution below
+

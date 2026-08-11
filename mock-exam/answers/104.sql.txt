@@ -1,0 +1,3 @@
+-- Question 104 [SUBQUERY]: Department with Maximum Total Payroll
+-- Write your standard ANSI SQL query solution below
+

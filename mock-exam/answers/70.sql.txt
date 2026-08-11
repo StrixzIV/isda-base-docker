@@ -1,0 +1,3 @@
+-- Question 70 [SUBQUERY]: Master Challenge: Products Above Category Average Price
+-- Write your standard ANSI SQL query solution below
+

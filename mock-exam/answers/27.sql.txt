@@ -1,0 +1,3 @@
+-- Question 27 [AGGREGATION]: Active Department Count
+-- Write your standard ANSI SQL query solution below
+

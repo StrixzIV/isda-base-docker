@@ -1,0 +1,3 @@
+-- Question 54 [HAVING]: High Average Salary Departments
+-- Write your standard ANSI SQL query solution below
+

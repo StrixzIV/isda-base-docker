@@ -1,0 +1,3 @@
+-- Question 45 [JOIN]: Orders with Customer and Employee Names
+-- Write your standard ANSI SQL query solution below
+

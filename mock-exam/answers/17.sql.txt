@@ -1,0 +1,3 @@
+-- Question 17 [WHERE]: Job Title Keyword Search
+-- Write your standard ANSI SQL query solution below
+

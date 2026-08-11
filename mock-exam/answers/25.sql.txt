@@ -1,0 +1,3 @@
+-- Question 25 [AGGREGATION]: Total Revenue from Completed Orders
+-- Write your standard ANSI SQL query solution below
+

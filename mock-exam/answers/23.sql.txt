@@ -1,0 +1,3 @@
+-- Question 23 [AGGREGATION]: Earliest and Latest Hire Dates
+-- Write your standard ANSI SQL query solution below
+

@@ -1,0 +1,3 @@
+-- Question 66 [SUBQUERY]: Highest Priced Product Details
+-- Write your standard ANSI SQL query solution below
+

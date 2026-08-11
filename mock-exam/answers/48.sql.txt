@@ -1,0 +1,3 @@
+-- Question 48 [JOIN]: Orders Handled by Department
+-- Write your standard ANSI SQL query solution below
+

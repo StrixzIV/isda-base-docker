@@ -1,0 +1,3 @@
+-- Question 123 [HAVING]: Parties with High Average Years Served (Textbook Ex 11.12)
+-- Write your standard ANSI SQL query solution below
+

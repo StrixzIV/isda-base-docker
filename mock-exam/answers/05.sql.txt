@@ -1,0 +1,3 @@
+-- Question 05 [SELECT]: Monthly Salary Calculation
+-- Write your standard ANSI SQL query solution below
+

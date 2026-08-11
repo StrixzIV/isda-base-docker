@@ -1,0 +1,3 @@
+-- Question 87 [GROUP BY]: Category Line Items & Revenue Breakdown
+-- Write your standard ANSI SQL query solution below
+

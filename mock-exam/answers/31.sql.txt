@@ -1,0 +1,3 @@
+-- Question 31 [GROUP BY]: Department Employee Count & Average Salary
+-- Write your standard ANSI SQL query solution below
+

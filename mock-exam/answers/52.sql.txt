@@ -1,0 +1,3 @@
+-- Question 52 [HAVING]: High Volume Categories
+-- Write your standard ANSI SQL query solution below
+

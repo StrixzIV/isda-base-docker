@@ -1,0 +1,3 @@
+-- Question 106 [SELECT]: Presidential Directory Projections (Textbook Ex 3.01)
+-- Write your standard ANSI SQL query solution below
+

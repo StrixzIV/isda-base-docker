@@ -1,0 +1,3 @@
+-- Question 09 [SELECT]: Distinct Product Categories & Prices
+-- Write your standard ANSI SQL query solution below
+

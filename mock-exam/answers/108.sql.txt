@@ -1,0 +1,3 @@
+-- Question 108 [SELECT]: Distinct States Providing Presidents (Textbook Ex 3.08)
+-- Write your standard ANSI SQL query solution below
+

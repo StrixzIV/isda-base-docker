@@ -1,0 +1,3 @@
+-- Question 20 [WHERE]: Complex Department & Salary Filter
+-- Write your standard ANSI SQL query solution below
+

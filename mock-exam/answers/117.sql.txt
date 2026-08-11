@@ -1,0 +1,3 @@
+-- Question 117 [GROUP BY]: Average Children per Presidential Marriage (Textbook Ex 9.05)
+-- Write your standard ANSI SQL query solution below
+

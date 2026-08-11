@@ -1,0 +1,3 @@
+-- Question 51 [HAVING]: Departments with Multiple Employees
+-- Write your standard ANSI SQL query solution below
+

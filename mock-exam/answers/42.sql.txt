@@ -1,0 +1,3 @@
+-- Question 42 [JOIN]: Order Customer Info
+-- Write your standard ANSI SQL query solution below
+

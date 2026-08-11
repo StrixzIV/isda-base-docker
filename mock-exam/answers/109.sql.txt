@@ -1,0 +1,3 @@
+-- Question 109 [WHERE]: Presidents Born in Texas (Textbook Ex 6.02)
+-- Write your standard ANSI SQL query solution below
+

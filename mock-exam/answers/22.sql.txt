@@ -1,0 +1,3 @@
+-- Question 22 [AGGREGATION]: Total Payroll & Average Salary
+-- Write your standard ANSI SQL query solution below
+

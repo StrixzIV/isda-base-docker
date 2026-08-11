@@ -1,0 +1,3 @@
+-- Question 24 [AGGREGATION]: Distinct Ordering Customers Count
+-- Write your standard ANSI SQL query solution below
+

@@ -1,0 +1,3 @@
+-- Question 124 [SUBQUERY]: Hobbies of Long-Serving Presidents Subquery (Textbook Ex 11.06)
+-- Write your standard ANSI SQL query solution below
+

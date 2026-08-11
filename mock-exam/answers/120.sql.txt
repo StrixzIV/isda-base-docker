@@ -1,0 +1,3 @@
+-- Question 120 [JOIN]: Administration Inauguration Details with State (Textbook Ex 10.05)
+-- Write your standard ANSI SQL query solution below
+

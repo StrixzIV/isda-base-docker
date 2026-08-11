@@ -1,0 +1,3 @@
+-- Question 49 [JOIN]: Full Order Item Audit Trail (4-Table Join)
+-- Write your standard ANSI SQL query solution below
+

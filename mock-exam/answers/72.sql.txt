@@ -1,0 +1,3 @@
+-- Question 72 [SELECT]: Product Discount Price Projection
+-- Write your standard ANSI SQL query solution below
+

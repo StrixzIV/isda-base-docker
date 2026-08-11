@@ -1,0 +1,3 @@
+-- Question 67 [SUBQUERY]: Departments Employing Top Earners
+-- Write your standard ANSI SQL query solution below
+

@@ -1,0 +1,3 @@
+-- Question 98 [HAVING]: High Gross Revenue Product Categories
+-- Write your standard ANSI SQL query solution below
+

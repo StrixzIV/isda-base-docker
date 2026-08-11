@@ -1,0 +1,3 @@
+-- Question 116 [GROUP BY]: Years Served & Headcount Summary per Party (Textbook Ex 9.03)
+-- Write your standard ANSI SQL query solution below
+

@@ -1,0 +1,3 @@
+-- Question 26 [AGGREGATION]: Hardware Unit Price Metrics
+-- Write your standard ANSI SQL query solution below
+

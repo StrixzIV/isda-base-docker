@@ -1,0 +1,3 @@
+-- Question 119 [JOIN]: President Hobbies for Long-Serving Presidents (Textbook Ex 11.04)
+-- Write your standard ANSI SQL query solution below
+

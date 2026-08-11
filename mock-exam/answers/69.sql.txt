@@ -1,0 +1,3 @@
+-- Question 69 [SUBQUERY]: Average Customer Total Expenditure
+-- Write your standard ANSI SQL query solution below
+

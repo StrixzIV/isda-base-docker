@@ -1,0 +1,3 @@
+-- Question 92 [JOIN]: Order Line Item Customer Context
+-- Write your standard ANSI SQL query solution below
+

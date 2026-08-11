@@ -1,0 +1,3 @@
+-- Question 101 [SUBQUERY]: Employees Hired After Average Hire Date
+-- Write your standard ANSI SQL query solution below
+

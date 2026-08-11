@@ -1,0 +1,3 @@
+-- Question 02 [SELECT]: Employee Column Aliasing
+-- Write your standard ANSI SQL query solution below
+

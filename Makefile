@@ -3,7 +3,7 @@ NAME = isda-base-docker
 COMPOSE = docker compose
 COMPOSE_FILE = docker-compose.yml
 
-.PHONY: all up down clean fclean re setup
+.PHONY: all up down clean fclean re setup init-exam-db exam grade exam-status exam-reset grade-all
 
 all: setup
 
@@ -27,3 +27,27 @@ fclean:
 	$(COMPOSE) -f $(COMPOSE_FILE) down -v --rmi all --remove-orphans
 
 re: fclean setup
+
+init-exam-db:
+	@echo "Initializing database 'isda-mock-exam'..."
+	@docker exec -i postgres_db psql -U postgres -c "DROP DATABASE IF EXISTS \"isda-mock-exam\";" || true
+	@docker exec -i postgres_db psql -U postgres -c "CREATE DATABASE \"isda-mock-exam\";"
+	@docker exec -i postgres_db psql -U postgres -d "isda-mock-exam" -f /dev/stdin < mock-exam/init_db.sql
+	@echo "Database 'isda-mock-exam' successfully initialized!"
+
+exam:
+	@python3 mock-exam/exam.py --start
+
+grade:
+	@python3 mock-exam/exam.py --submit
+
+exam-status:
+	@python3 mock-exam/exam.py --status
+
+exam-reset:
+	@python3 mock-exam/exam.py --reset
+
+grade-all:
+	@python3 mock-exam/grade.py
+
+

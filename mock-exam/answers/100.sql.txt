@@ -1,0 +1,3 @@
+-- Question 100 [HAVING]: Master Challenge: High Completed Revenue Countries
+-- Write your standard ANSI SQL query solution below
+

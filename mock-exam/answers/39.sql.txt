@@ -1,0 +1,3 @@
+-- Question 39 [GROUP BY]: Job Title Compensation Breakdown
+-- Write your standard ANSI SQL query solution below
+

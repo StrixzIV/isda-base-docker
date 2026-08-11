@@ -1,0 +1,3 @@
+-- Question 16 [WHERE]: Bulk Low-Cost Items Filter
+-- Write your standard ANSI SQL query solution below
+

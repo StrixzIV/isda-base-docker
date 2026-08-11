@@ -1,0 +1,3 @@
+-- Question 30 [AGGREGATION]: Recent Hires Average Salary
+-- Write your standard ANSI SQL query solution below
+

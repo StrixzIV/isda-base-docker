@@ -1,0 +1,3 @@
+-- Question 102 [SUBQUERY]: Line Items Above Average Quantity
+-- Write your standard ANSI SQL query solution below
+

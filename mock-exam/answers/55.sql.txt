@@ -1,0 +1,3 @@
+-- Question 55 [HAVING]: High Revenue Order Statuses
+-- Write your standard ANSI SQL query solution below
+

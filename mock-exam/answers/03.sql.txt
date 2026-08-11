@@ -1,0 +1,3 @@
+-- Question 03 [SELECT]: Distinct Customer Locations
+-- Write your standard ANSI SQL query solution below
+

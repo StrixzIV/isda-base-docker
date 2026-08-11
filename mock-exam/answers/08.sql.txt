@@ -1,0 +1,3 @@
+-- Question 08 [SELECT]: Order Item Prices
+-- Write your standard ANSI SQL query solution below
+

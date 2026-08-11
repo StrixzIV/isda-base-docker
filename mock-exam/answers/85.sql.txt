@@ -1,0 +1,3 @@
+-- Question 85 [AGGREGATION]: Staff Compensation Spread Metric
+-- Write your standard ANSI SQL query solution below
+

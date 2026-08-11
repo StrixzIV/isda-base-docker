@@ -1,0 +1,2 @@
+-- Question 105 Solution: SUBQUERY (Master Challenge: Reps Earning Above Department Average Revenue)
+SELECT e.employee_id, e.first_name, e.last_name, e.salary, e.department_id FROM employees e WHERE e.salary > (SELECT SUM(o.total_amount) / COUNT(DISTINCT e2.employee_id) FROM employees e2 JOIN orders o ON e2.employee_id = o.employee_id WHERE e2.department_id = e.department_id AND o.status = 'Completed') ORDER BY e.employee_id ASC;

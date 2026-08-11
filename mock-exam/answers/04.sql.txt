@@ -1,0 +1,3 @@
+-- Question 04 [SELECT]: Employee Full Name Projection
+-- Write your standard ANSI SQL query solution below
+

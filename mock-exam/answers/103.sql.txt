@@ -1,0 +1,3 @@
+-- Question 103 [SUBQUERY]: Customers Placed Orders with Engineering Staff
+-- Write your standard ANSI SQL query solution below
+

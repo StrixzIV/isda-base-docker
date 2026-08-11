@@ -1,0 +1,3 @@
+-- Question 78 [WHERE]: Second Half Hire Date Filter
+-- Write your standard ANSI SQL query solution below
+

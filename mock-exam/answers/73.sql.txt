@@ -1,0 +1,3 @@
+-- Question 73 [SELECT]: Customer Directory Tier Projection
+-- Write your standard ANSI SQL query solution below
+

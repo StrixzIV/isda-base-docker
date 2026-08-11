@@ -1,0 +1,3 @@
+-- Question 46 [JOIN]: All Customers Order Placement
+-- Write your standard ANSI SQL query solution below
+

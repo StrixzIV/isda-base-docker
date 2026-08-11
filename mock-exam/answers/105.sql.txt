@@ -1,0 +1,3 @@
+-- Question 105 [SUBQUERY]: Master Challenge: Reps Earning Above Department Average Revenue
+-- Write your standard ANSI SQL query solution below
+

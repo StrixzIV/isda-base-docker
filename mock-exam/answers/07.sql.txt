@@ -1,0 +1,3 @@
+-- Question 07 [SELECT]: Department Location List
+-- Write your standard ANSI SQL query solution below
+

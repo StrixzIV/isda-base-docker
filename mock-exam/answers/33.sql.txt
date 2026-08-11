@@ -1,0 +1,3 @@
+-- Question 33 [GROUP BY]: Customer Count per Country
+-- Write your standard ANSI SQL query solution below
+

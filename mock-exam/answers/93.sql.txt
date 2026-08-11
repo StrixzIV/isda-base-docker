@@ -1,0 +1,3 @@
+-- Question 93 [JOIN]: Unassigned Departments Audit (LEFT JOIN Filter)
+-- Write your standard ANSI SQL query solution below
+

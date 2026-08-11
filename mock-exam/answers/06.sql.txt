@@ -1,0 +1,3 @@
+-- Question 06 [SELECT]: Distinct Job Titles
+-- Write your standard ANSI SQL query solution below
+

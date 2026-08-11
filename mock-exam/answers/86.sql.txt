@@ -1,0 +1,3 @@
+-- Question 86 [GROUP BY]: Account Registrations by Year
+-- Write your standard ANSI SQL query solution below
+

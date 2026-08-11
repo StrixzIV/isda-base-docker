@@ -1,0 +1,3 @@
+-- Question 60 [HAVING]: Master Challenge: High Revenue Departments
+-- Write your standard ANSI SQL query solution below
+

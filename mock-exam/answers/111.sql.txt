@@ -1,0 +1,3 @@
+-- Question 111 [WHERE]: Presidents Age Ratio at Marriage (Textbook Ex 8.05)
+-- Write your standard ANSI SQL query solution below
+

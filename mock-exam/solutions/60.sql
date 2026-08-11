@@ -1,0 +1,2 @@
+-- Question 60 Solution: HAVING (Master Challenge: High Revenue Departments)
+SELECT d.department_id, d.department_name, COUNT(DISTINCT e.employee_id) AS emp_count, SUM(o.total_amount) AS dept_revenue FROM departments d JOIN employees e ON d.department_id = e.department_id JOIN orders o ON e.employee_id = o.employee_id GROUP BY d.department_id, d.department_name HAVING COUNT(DISTINCT e.employee_id) >= 2 AND SUM(o.total_amount) > 5000.00 ORDER BY dept_revenue DESC;

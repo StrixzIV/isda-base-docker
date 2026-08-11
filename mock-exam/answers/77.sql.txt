@@ -1,0 +1,3 @@
+-- Question 77 [WHERE]: Line Item Total Value Range
+-- Write your standard ANSI SQL query solution below
+

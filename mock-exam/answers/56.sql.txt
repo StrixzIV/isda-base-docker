@@ -1,0 +1,3 @@
+-- Question 56 [HAVING]: High Value Completed Customers
+-- Write your standard ANSI SQL query solution below
+

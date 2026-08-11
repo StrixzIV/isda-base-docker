@@ -1,0 +1,3 @@
+-- Question 34 [GROUP BY]: Category Sales & Price Metrics
+-- Write your standard ANSI SQL query solution below
+

@@ -1,0 +1,3 @@
+-- Question 81 [AGGREGATION]: Average Item Quantity & Unit Price
+-- Write your standard ANSI SQL query solution below
+

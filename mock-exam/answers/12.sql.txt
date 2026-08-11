@@ -1,0 +1,3 @@
+-- Question 12 [WHERE]: Specific Country Customers
+-- Write your standard ANSI SQL query solution below
+
